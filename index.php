@@ -11,14 +11,14 @@
 <body>
     <div class="content">
         <header>
-            <h1>WEBSITE APAAN INI ANJ*NG!!!?</h1>
+            <h1>The Website</h1>
             <p>Ini Contoh website dinamis dengan CRUD</p>
         </header>
         <div class="menu">
             <ul>
-                <li><a href="">HOME</a></li>
-                <li><a href="">TENTANG</a></li>
-                <li><a href="">TUTORIAL</a></li>
+                <li><a href="index.php?page=home">HOME</a></li>
+                <li><a href="index.php?page=tentang">TENTANG</a></li>
+                <li><a href="index.php?page=tutorial">TUTORIAL</a></li>
             </ul>
         </div>
         <div class="badan">
@@ -32,7 +32,7 @@
                         break;
                     
                     default:
-                        echo "<center><h3>Maaf, halaman tidak ditemukan !</h3></center>";
+                        echo "<div class='halaman'><h3>404 PAGE NOT FOUND</h3><p>Maaf, halaman tidak ditemukan !</p></div>";
                         break;
                 }
             }else{
