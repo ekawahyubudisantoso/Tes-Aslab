@@ -22,7 +22,23 @@
             </ul>
         </div>
         <div class="badan">
+            <?php
+            if(isset($_GET['page'])){
+                $page = $_GET['page'];
 
+                switch ($page) {
+                    case 'home':
+                        include "page/home.php";
+                        break;
+                    
+                    default:
+                        echo "<center><h3>Maaf, halaman tidak ditemukan !</h3></center>";
+                        break;
+                }
+            }else{
+                include "page/home.php";
+            }
+            ?>
         </div>
     </div>
 </body>

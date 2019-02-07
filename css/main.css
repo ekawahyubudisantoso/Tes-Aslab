@@ -47,3 +47,14 @@ header h1, p{
     color: black;
     background-color: white;
 }
+
+.badan{
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 10px; 
+}
+
+.halaman{
+    text-align: center;
+    padding: 30px 20px;
+}
