@@ -16,19 +16,24 @@
         </header>
         <div class="menu">
             <ul>
-                <li><a href="index.php?page=home">HOME</a></li>
-                <li><a href="index.php?page=tentang">TENTANG</a></li>
-                <li><a href="index.php?page=tutorial">TUTORIAL</a></li>
+                <li><a href="index.php?page=home">Beranda</a></li>
+                <li><a href="index.php?page=tentang">Tentang</a></li>
+                <li><a href="index.php?page=tampil_mahasiswa">Mahasiswa</a></li>
             </ul>
         </div>
         <div class="badan">
             <?php
+            include "connection/connect.php";
             if(isset($_GET['page'])){
                 $page = $_GET['page'];
 
                 switch ($page) {
                     case 'home':
                         include "page/home.php";
+                        break;
+
+                    case 'tampil_mahasiswa':
+                        include "page/tampil_mahasiswa.php";
                         break;
                     
                     default:
