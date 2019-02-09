@@ -1,5 +1,7 @@
 <?php
     include '../connection/connect.php';
+
+    $id     = $_POST['id'];
     $nim    = $_POST['nim'];
     $nama   = $_POST['nama'];
     $j_kel  = $_POST['j_kel'];

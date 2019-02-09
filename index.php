@@ -50,8 +50,8 @@
                         include "page/input_mahasiswa.php";
                         break;
                     
-                    case 'rename_mahasiswa':
-                        include "page/rename_mahasiswa.php";
+                    case 'update_mahasiswa':
+                        include "page/update_mahasiswa.php";
                         break;
                     
                     default:

@@ -14,6 +14,7 @@
     <form action="crud/edit_mahasiswa.php" method="post">
         <div class="form-group">
             <label for="nim">NIM</label>
+            <input type="hidden" value="<?php echo $arr['id']; ?>" name="id" class="form-control">
             <input type="text" value="<?php echo $arr['nim']; ?>" name="nim" class="form-control">
         </div>
         <div class="form-group">

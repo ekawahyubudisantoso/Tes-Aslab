@@ -38,7 +38,7 @@
                     <td><?php echo $arr['j_kel']; ?></td>
                     <td><?php echo $arr['alamat']; ?></td>
                     <td>
-                        <a href="index.php?page=rename_mahasiswa&id=<?php echo $arr['id']; ?>" class="btn btn-warning">Edit <span class="glyphicon glyphicon-pencil"></span></a> | 
+                        <a href="index.php?page=update_mahasiswa&id=<?php echo $arr['id']; ?>" class="btn btn-warning">Edit <span class="glyphicon glyphicon-pencil"></span></a> | 
                         <a href="crud/hapus_mahasiswa.php?id=<?php echo $arr['id']; ?>" class="btn btn-danger">Hapus <span class="glyphicon glyphicon-trash"></span></a>
                     </td>
                 </tr>
