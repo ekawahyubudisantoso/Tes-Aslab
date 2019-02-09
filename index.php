@@ -50,6 +50,10 @@
                         include "page/input_mahasiswa.php";
                         break;
                     
+                    case 'rename_mahasiswa':
+                        include "page/rename_mahasiswa.php";
+                        break;
+                    
                     default:
                         echo "<div class='row'><div class='col-md'><h2>404 PAGE NOT FOUND</h2><p>Maaf, halaman tidak ditemukan !</p></div></div>";
                         break;
