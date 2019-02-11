@@ -9,9 +9,11 @@
     <script src="main.js"></script>
 </head>
 <body>
-    <div class="framework">
-        <h1>Project unt</h1>
-    </div>
+    <a href="Framework">
+        <div class="framework">
+            <h1>Project unt</h1>
+        </div>
+    </a>
     <a href="NativeCRUD">
         <div class="native" >
             <h1>uk Tes AsLab</h1>
