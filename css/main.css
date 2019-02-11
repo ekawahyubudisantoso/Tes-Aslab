@@ -1,0 +1,37 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    font-family: Segoe UI;
+}
+
+.framework{
+    float: left;
+    width:50%;
+    height: 720px;
+    background-color: #e67e22;
+    cursor: pointer;
+}
+
+.framework h1{
+    float: right;
+    font-weight: 500;
+    color: #fff;
+}
+
+.native{
+    float: left;
+    width: 50%;
+    height: 720px;
+    background-color: #9b59b6;
+    cursor: pointer;
+}
+
+.native h1{
+    float: left;
+    font-weight: 500;
+    color: #fff;
+}
+
